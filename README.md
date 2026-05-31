@@ -27,10 +27,21 @@ The installation follows standard OS-specific procedures, but requires attention
 For Mac:
 Download the appropriate .dmg file.
 Open the disk image and drag the Docker icon into your Applications folder.
+
+<img width="353" height="162" alt="image" src="https://github.com/user-attachments/assets/db6fee88-9bbb-4307-bd71-dd953730c47d" />
+
+
 For Windows:
 Run the installation wizard.
 Ensure the "Use WSL 2 instead of Hyper-V" option is checked (if prompted).
 Complete the wizard and restart your machine if requested.
+
+<img width="704" height="305" alt="docker-installation-wizard-configuring" src="https://github.com/user-attachments/assets/2950d480-f5ed-4945-9f01-b2ef6c237097" />
+
+Docker Desktop
+<img width="1078" height="686" alt="docker-01" src="https://github.com/user-attachments/assets/ac2a55c3-617b-41ee-8ed5-0223d0962ff3" />
+
+
 
 4. Establishing Data Persistence (Creating a Volume)
 Before pulling the n8n software, you must prepare a place for its data to live. Without this step, your work is ephemeral.
