@@ -62,9 +62,12 @@ Stage 2: Container Initialization: Once the image status shows "Unused" or "Down
 You can also pull with the CLI
 <img width="1246" height="637" alt="image" src="https://github.com/user-attachments/assets/60466579-3d24-462b-b1b8-0316111230c5" />
 
-    docker pull n8nio/n8n
+
+                                    docker pull n8nio/n8n
 
 
+
+Docker n8n Image pull done
 <img width="1003" height="426" alt="image" src="https://github.com/user-attachments/assets/6f1461ee-0f2d-46b0-bc02-0329f878bf3d" />
 
 
