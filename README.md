@@ -46,12 +46,27 @@ Docker Desktop
 4. Establishing Data Persistence (Creating a Volume)
 Before pulling the n8n software, you must prepare a place for its data to live. Without this step, your work is ephemeral.
 Why This Matters By default, Docker containers are "stateless." If you restart your computer or update the n8n image, all your workflows and credentials will be deleted. Creating a Volume ensures that your data is stored on your hard drive independently of the container, providing persistence across reboots and updates.
+
 Actionable Instruction: Navigate to the Volumes tab in Docker Desktop and click Create Volume. Give it a recognizable name (e.g., n8n_data).
+
+
+
+<img width="975" height="342" alt="image" src="https://github.com/user-attachments/assets/fb0a732d-7f4b-4fef-bfe4-4d963fc6d8e2" />
+
 
 5. Pulling and Configuring the n8n Image
 With the storage infrastructure ready, you can now acquire the n8n application.
 Stage 1: Pulling the Image: Navigate to the Images tab. Search for "n8n" and click Pull on the official n8n image. This downloads the latest stable version to your machine.
 Stage 2: Container Initialization: Once the image status shows "Unused" or "Downloaded," click the Run button. Crucial: Do not click the second "Run" immediately in the pop-up; instead, click Optional Settings to access advanced configuration.
+
+You can also pull with the CLI
+<img width="1246" height="637" alt="image" src="https://github.com/user-attachments/assets/60466579-3d24-462b-b1b8-0316111230c5" />
+
+    docker pull n8nio/n8n
+
+
+<img width="1003" height="426" alt="image" src="https://github.com/user-attachments/assets/6f1461ee-0f2d-46b0-bc02-0329f878bf3d" />
+
 
 6. Advanced Container Configuration & Environment Variables
 To achieve parity with a professional CLI installation, you must map your volume and set specific environment variables.
