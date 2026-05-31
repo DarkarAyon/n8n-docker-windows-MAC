@@ -19,6 +19,9 @@ Administrator/Root Access: You must have full administrative privileges. Docker 
 WSL 2 (Windows Subsystem for Linux): This is a mandatory backend for Docker on Windows.
 Pro-Tip: WSL 2 Troubleshooting If the Docker installer does not automatically prompt you to enable WSL 2, or if Docker fails to start after installation, open PowerShell as an Administrator and run the command wsl --install. This manually triggers the necessary Windows components for Docker to function.
 
+    <img width="1783" height="972" alt="image" src="https://github.com/user-attachments/assets/f2ff1d36-4920-4770-824a-f9bf8fa56dd5" />
+
+
 3. Docker Desktop Installation Process
 The installation follows standard OS-specific procedures, but requires attention to the finalization steps.
 For Mac:
